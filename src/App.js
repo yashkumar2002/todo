@@ -64,7 +64,7 @@ function App() {
               >
                 {todo.text}
               </span>
-              <button onClick={() => handleTodoToggle(index)}>Done</button>
+              <button className='btn' onClick={() => handleTodoToggle(index)}>Done</button>
               <button onClick={() => handleTodoRemove(index)}>Remove</button>
             </li>
           ))}
